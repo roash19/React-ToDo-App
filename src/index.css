@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.form-control {
+  width: 300px !important;
+}
+
+.task-text{
+  width: 230px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn {
+  height: 40px;
+  min-width: 60px;
+}
+
+.error {
+  margin: 0;
+  margin-bottom: -24px;
+}
+
+.input-edit {
+  width: 230px !important;
+}
+
+.taskComplite {
+  text-decoration: line-through;
+  color: red;
+}
