@@ -33,7 +33,8 @@ class Task extends Component {
             <input type="text"
                    className="form-control mr-3 input-edit"
                    value={this.state.value}
-                   onChange={this.handleChange}/>
+                   onChange={this.handleChange}
+                   autoFocus="true"/>
             <button className="btn btn-success mr-3" onClick={() => this.props.saveEdit(this.state.value, this.props.index)}>Save</button>
           </div>
           :
